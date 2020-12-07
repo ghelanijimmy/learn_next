@@ -1,3 +1,9 @@
+import styles from "./inndex.module.scss";
+
 export default function Home() {
-  return <h1>Hello World</h1>;
+  return (
+    <div>
+      <h1 className={styles.green}>Test</h1>
+    </div>
+  );
 }
