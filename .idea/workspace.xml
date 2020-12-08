@@ -2,14 +2,15 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7057f074-9885-4aff-8d39-6069f8b155c5" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/pages/inndex.module.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pages/main.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pages/api/login.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/httpRequests/http-requests-log.http" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/httpRequests/http-requests-log.http" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/Home.module.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/_app.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/pages/_app.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/globals.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/_document.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/api/api.http" beforeDir="false" afterPath="$PROJECT_DIR$/pages/api/api.http" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/api/hello.ts" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/pages/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/pages/index.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/nicepage.tsx" beforeDir="false" />
     </list>
     <disabled>
       <disabled_changelists>
@@ -75,6 +76,22 @@
     <option name="REQUEST_HISTORY">
       <list>
         <RestClientRequest>
+          <option name="httpMethod" value="POST" />
+          <option name="urlBase" value="http://localhost:3000/api/hello" />
+          <option name="urlPath" value="" />
+          <option name="headers">
+            <list>
+              <KeyValuePair>
+                <option name="key" value="Content-Type" />
+                <option name="value" value="application/json" />
+              </KeyValuePair>
+            </list>
+          </option>
+          <option name="haveTextToSend" value="true" />
+          <option name="textToSend" value="{&#10;  &quot;body&quot;: &quot;hello&quot;&#10;}" />
+          <option name="filesToSend" value="" />
+        </RestClientRequest>
+        <RestClientRequest>
           <option name="httpMethod" value="GET" />
           <option name="urlBase" value="http://localhost:3000/api/hello" />
           <option name="urlPath" value="" />
@@ -86,6 +103,9 @@
   </component>
   <component name="RunManager" selected="npm.dev">
     <configuration name="api#1" type="HttpClient.HttpRequestRunConfigurationType" factoryName="HTTP Request" temporary="true" path="$PROJECT_DIR$/pages/api/api.http" runType="Run single request">
+      <method v="2" />
+    </configuration>
+    <configuration name="api#2" type="HttpClient.HttpRequestRunConfigurationType" factoryName="HTTP Request" temporary="true" path="$PROJECT_DIR$/pages/api/api.http" index="2" runType="Run single request">
       <method v="2" />
     </configuration>
     <configuration name="build" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
@@ -121,6 +141,7 @@
     <recent_temporary>
       <list>
         <item itemvalue="npm.dev" />
+        <item itemvalue="HTTP Request.api#2" />
         <item itemvalue="HTTP Request.api#1" />
         <item itemvalue="npm.start" />
         <item itemvalue="npm.build" />
@@ -137,7 +158,8 @@
       <updated>1607193191651</updated>
       <workItem from="1607193193550" duration="4733000" />
       <workItem from="1607358265700" duration="602000" />
-      <workItem from="1607358891646" duration="5429000" />
+      <workItem from="1607358891646" duration="7410000" />
+      <workItem from="1607461950474" duration="3906000" />
     </task>
     <task id="LOCAL-00001" summary="init project">
       <created>1607193382894</created>
@@ -167,7 +189,14 @@
       <option name="project" value="LOCAL" />
       <updated>1607360981369</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="sass and style modules">
+      <created>1607380463723</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1607380463723</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">

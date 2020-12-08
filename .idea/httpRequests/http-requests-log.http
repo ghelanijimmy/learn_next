@@ -1,3 +1,25 @@
+POST http://localhost:3000/api/hello
+Content-Type: application/json
+
+{
+  "body": "hello"
+}
+
+<> 2020-12-08T162915.200.json
+
+###
+
+POST http://localhost:3000/api/hello
+Content-Type: application/json
+
+{
+  "body": "hello"
+}
+
+<> 2020-12-08T162110.200.json
+
+###
+
 GET http://localhost:3000/api/hello
 
 <> 2020-12-06T112501.200.json
